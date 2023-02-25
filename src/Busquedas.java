@@ -8,14 +8,14 @@ public class Busquedas {
         return -1; // si el valor no se encuentra en el arreglo, retorna -1
     }
 
-    public static int busquedaBinaria(int[] arreglo, int valorBuscado) {
+    public static int busquedaBinaria(int[] arreglo2, int valorBuscado2) {
         int inicio = 0;
-        int fin = arreglo.length - 1;
+        int fin = arreglo2.length - 1;
         while (inicio <= fin) {
             int medio = (inicio + fin) / 2;
-            if (arreglo[medio] == valorBuscado) {
+            if (arreglo2[medio] == valorBuscado2) {
                 return medio; // retorna el índice donde se encuentra el valor buscado
-            } else if (arreglo[medio] < valorBuscado) {
+            } else if (arreglo2[medio] < valorBuscado2) {
                 inicio = medio + 1;
             } else {
                 fin = medio - 1;
@@ -26,13 +26,28 @@ public class Busquedas {
 
     public static void main(String[] args) {
         int arreglo[] = {5, 8, 9, 3, 1, 0};
-        int valorBuscado = 3;
+        int valorBuscado = 1;
         int indice = busquedaLineal(arreglo, valorBuscado);
 
-        if (indice ==1){
-            System.out.println("El valor " + valorBuscado + "No se encuentra en el arreglo");
+        int arreglo2[] = {5, 6, 1, 0, 4, 2};
+        int valorBuscado2 = 1;
+        int indice2 = busquedaBinaria(arreglo2, valorBuscado2);
+
+        if (indice ==-1){
+            System.out.println("El valor " + valorBuscado + " No se encuentra en el arreglo");
         } else {
-            System.out.println("El valor " + valorBuscado + "se encuentra en la posición " + indice + "del arreglo");
+            System.out.println("El valor " + valorBuscado + " se encuentra en la posición [" + indice + "] del arreglo");
         }
+
+        if (indice2 ==-1){
+            System.out.println("El valor " + valorBuscado2 + " No se encuentra en el arreglo");
+        } else {
+            System.out.println("El valor " + valorBuscado2 + " se encuentra en la posición [" + indice2 + "] del arreglo");
+        }
+
+
+
     }
+
+
 }
