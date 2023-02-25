@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d2219e-ece3-4856-bee6-f72550d6abfa" name="Changes" comment="Implementando código de búsqueda lineal" />
+    <list default="true" id="15d2219e-ece3-4856-bee6-f72550d6abfa" name="Changes" comment="Implementando el método de la búsqueda binaria" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,12 +58,20 @@
       <option name="project" value="LOCAL" />
       <updated>1677290363553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementando el método de la búsqueda binaria">
+      <created>1677290600945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677290600945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando con el proyecto" />
     <MESSAGE value="Implementando código de búsqueda lineal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando código de búsqueda lineal" />
+    <MESSAGE value="Implementando el método de la búsqueda binaria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando el método de la búsqueda binaria" />
   </component>
 </project>
