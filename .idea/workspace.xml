@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d2219e-ece3-4856-bee6-f72550d6abfa" name="Changes" comment="Realizando pruebas">
+    <list default="true" id="15d2219e-ece3-4856-bee6-f72550d6abfa" name="Changes" comment="Creando código del algoritmo de búsqueda binaria">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Busquedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busquedas.java" afterDir="false" />
     </list>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677293588927</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Creando código del algoritmo de búsqueda binaria">
+      <created>1677297949109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677297949109</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +124,7 @@
     <MESSAGE value="Revisando código" />
     <MESSAGE value="Haciendo la primer prueba" />
     <MESSAGE value="Realizando pruebas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realizando pruebas" />
+    <MESSAGE value="Creando código del algoritmo de búsqueda binaria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando código del algoritmo de búsqueda binaria" />
   </component>
 </project>
