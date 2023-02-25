@@ -25,6 +25,15 @@ public class Busquedas {
     }
 
     public static void main(String[] args) {
+        int arreglo[] = {5, 8, 9, 3, 1, 0};
+        int valorBuscado = 3;
+        int indice = busquedaLineal(arreglo, valorBuscado);
+
+        if (indice ==1){
+            System.out.println("El valor " + valorBuscado + "No se encuentra en el arreglo");
+        } else {
+            System.out.println("El valor " + valorBuscado + "se encuentra en la posición " + indice + "del arreglo");
+        }
 
     }
 }
