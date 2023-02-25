@@ -34,6 +34,5 @@ public class Busquedas {
         } else {
             System.out.println("El valor " + valorBuscado + "se encuentra en la posición " + indice + "del arreglo");
         }
-
     }
 }

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d2219e-ece3-4856-bee6-f72550d6abfa" name="Changes" comment="Revisando código">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Busquedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busquedas.java" afterDir="false" />
-    </list>
+    <list default="true" id="15d2219e-ece3-4856-bee6-f72550d6abfa" name="Changes" comment="Haciendo la primer prueba" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,14 +72,40 @@
       <option name="project" value="LOCAL" />
       <updated>1677291704142</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Haciendo la primer prueba">
+      <created>1677293222537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677293222537</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Haciendo la primer prueba">
+      <created>1677293371355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677293371355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando con el proyecto" />
     <MESSAGE value="Implementando código de búsqueda lineal" />
     <MESSAGE value="Implementando el método de la búsqueda binaria" />
     <MESSAGE value="Revisando código" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisando código" />
+    <MESSAGE value="Haciendo la primer prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Haciendo la primer prueba" />
   </component>
 </project>
