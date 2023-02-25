@@ -1,0 +1,26 @@
+Pseudo Código del algoritmo de la Búsqueda Lineal
+1. Inicio del método busquedaLineal(arreglo, valorBuscado)
+2. Para cada elemento del arreglo
+3.     Si el valor del elemento es igual al valor buscado
+4.         Retornar el índice del elemento
+5. Fin del ciclo
+6. Si no se encontró el valor buscado en el arreglo
+7.     Retornar -1
+8. Fin del método
+
+
+Pseudo Código del algoritmo de la Búsqueda Binaria
+1. Inicio del método busquedaBinaria(arreglo, valorBuscado)
+2. Establecer los índices inicio y fin como 0 y la longitud del arreglo - 1, respectivamente.
+3. Mientras el índice inicio sea menor o igual que el índice fin
+4.     Calcular el índice medio del subarreglo (inicio + fin) / 2
+5.     Si el valor del elemento medio es igual al valor buscado
+6.         Retornar el índice del elemento medio
+7.     Si el valor del elemento medio es menor al valor buscado
+8.         Establecer el índice inicio como medio + 1
+9.     Si el valor del elemento medio es mayor al valor buscado
+10.        Establecer el índice fin como medio - 1
+11. Fin del ciclo
+12. Si no se encontró el valor buscado en el arreglo
+13.     Retornar -1
+14. Fin del método
